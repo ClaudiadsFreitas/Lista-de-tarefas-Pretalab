@@ -108,8 +108,8 @@ const refreshTasksUsingLocalStorage = () => {
     taskContent.addEventListener("click", () => handleClick(taskContent));
 
     const deleteItem = document.createElement("i");
-    deleteItem.classList.add("fa-duotone");
-    deleteItem.classList.add("fa-trash-alt");
+    deleteItem.classList.add("fa-solid");
+    deleteItem.classList.add("fa-trash");
 
     deleteItem.addEventListener("click", () =>
       handleDeleteClick(taskItemContainer, taskContent)
